@@ -62,7 +62,7 @@ class App extends React.Component {
     if (!this.state.todos) return <h1>loading to dos... </h1>;
     return (
       <div>
-        <h2>Welcome to your Todo App!</h2>
+        <h2>Welcome to your Todo List App!</h2>
         <ToDoList
           todos={this.state.todos}
           toggleCompleted={this.toggleCompleted}
@@ -71,6 +71,7 @@ class App extends React.Component {
           handleSubmit={this.handleSubmit}
           clearCompleted={this.clearCompleted}
         />
+        <h2> Made by: Nick</h2>
       </div>
     );
   }
