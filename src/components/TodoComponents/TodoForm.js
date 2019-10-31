@@ -40,7 +40,7 @@ class ToDoForm extends React.Component {
           />
           <button type="submit">+</button>
         </form>
-        <button onClick={this.props.clearCompleted}>clear completed</button>
+        <button onClick={this.props.clearCompleted}>CLEAR TASK</button>
       </>
     );
   }
