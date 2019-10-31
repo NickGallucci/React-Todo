@@ -35,7 +35,7 @@ class ToDoForm extends React.Component {
           <input
             value={this.state.newTask}
             name="newTask"
-            placeholder="new task..."
+            placeholder="Input Task Here..."
             onChange={this.handleInput}
           />
           <button type="submit">+</button>
