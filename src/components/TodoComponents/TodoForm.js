@@ -9,7 +9,7 @@ class ToDoForm extends React.Component {
     this.state = {
       newTask: ""
     };
-  }
+  };
 
 
   handleInput = e => {
@@ -43,8 +43,8 @@ class ToDoForm extends React.Component {
         <button onClick={this.props.clearCompleted}>CLEAR TASK</button>
       </>
     );
-  }
-}
+  };
+};
 
 
 export default ToDoForm;

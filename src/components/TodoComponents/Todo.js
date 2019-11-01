@@ -14,7 +14,7 @@ function ToDo({ todo, toggleCompleted }) {
       {todo.task}
     </li>
   );
-}
+};
 
 
 export default ToDo;

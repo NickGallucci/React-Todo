@@ -11,7 +11,7 @@ class ToDoList extends React.Component {
     this.state = {
       searchInput: ""
     };
-  }
+  };
 
 
   handleSearch = e => {
@@ -42,8 +42,8 @@ class ToDoList extends React.Component {
         </ul>
       </>
     );
-  }
-}
+  };
+};
 
 
 export default ToDoList;
